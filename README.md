@@ -36,7 +36,7 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000 <br>
 
 ### Web application
 Home page:
-<img src="/images/website home.png" height="300"><br>
+<img src="/images/website home.png" height="250"><br>
 
 Results page:<br>
 <img src="/images/website results 1.png" height="500"><br><br>
