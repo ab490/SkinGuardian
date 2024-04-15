@@ -9,7 +9,7 @@ Skin disease poses a major global health challenge, affecting a vast number of p
 
 ### Dataset information
 https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000 <br>
-**HAM10000** is a dataset containing 10,015 dermatoscopic images for training machine learning models to detect pigmented skin lesions. It includes images that represent 7 diagnostic categories relevant to pigmented lesions:
+**HAM10000** is a dataset containing 10,015 dermatoscopic images that fall into the following seven diagnostic categories:
 - Actinic Keratosis
 - Basal Cell Carcinoma
 - Benign Keratosis
