@@ -1,5 +1,6 @@
 # SkinGuardian
- A web application designed to predict and classify the type of skin cancer using dermatoscopic images uploaded by users.
+https://skinguardian.onrender.com <br>
+A web application designed to predict and classify the type of skin cancer using dermatoscopic images uploaded by users.
 
 ## 1. Project description
 ### Context and goals
@@ -17,6 +18,8 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000 <br>
 - Melanoma
 - Melanocytic Nevi
 - Vascular Lesions
+  
+<img src="/images/dataset image.png"><br>
 
  ## 2. Project Stages
  0. Data Loading
@@ -24,5 +27,20 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000 <br>
  2. Data Exploration
  3. Model Training and Testing
  4. Web Application Development
-  
-  
+
+### Model architecture
+<img src="/images/model architecture.png" height="600"><br>
+
+### Metrics
+<img src="/images/metrics.png"><br>
+<img src="/images/metrics curves.png"><br>
+
+### Web application
+Home page:
+<img src="/images/website home.png" height="250"><br>
+
+Results page:<br>
+<img src="/images/website results 1.png" height="500"><br><br>
+<img src="/images/website results 2.png" height="436"><br>
+
+The web application has been trained exclusively on a dataset that encompasses seven distinct types of skin conditions. Should a user upload an image that doesn't correspond to any of these recognized categories, (if the model's confidence level falls below a 75% threshold), the output will indicate that no disease has been detected. It suggests that the skin might be healthy or possibly affected by a condition not included in the model's training set.
