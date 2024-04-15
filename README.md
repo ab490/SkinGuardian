@@ -1,5 +1,6 @@
 # SkinGuardian
- A web application designed to predict and classify the type of skin cancer using dermatoscopic images uploaded by users.
+https://skinguardian.onrender.com <br>
+A web application designed to predict and classify the type of skin cancer using dermatoscopic images uploaded by users.
 
 ## 1. Project description
 ### Context and goals
