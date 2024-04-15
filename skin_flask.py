@@ -76,13 +76,13 @@ def predict():
 
 def get_additional_info(disease_name):
     disease_info = {
-        'Benign keratosis': 'It is a generic class that includes seborrheic keratoses, lichen-planus-like keratoses, and solar lentigo. The three subgroups may look different dermatoscopically, but they are grouped as they are similar biologically and often reported under the same generic term histopathologically.',
-        'Melanocytic nevus': 'Skin lesions are benign neoplasms of melanocytes and appear in various shapes and sizes. From a dermatoscopic standpoint, the variants may differ dramatically.',
-        'Dermatofibroma': 'This skin lesion is either benign growth or an inflammatory response to minor trauma.',
-        'Melanoma': 'Melanoma is a cancerous tumor that develops from melanocytes and can take many forms. It can be treated with a primary surgical procedure if caught early enough.',
-        'Vascular lesion': 'Cherry antifoams, angiokeratomas, and pyogenic granulomas are examples of benign or malignant angiomas.',
-        'Basal cell carcinoma': 'A type of epithelial skin cancer that rarely spreads, but if left untreated, it might become aggressive and relapse.',
-        'Actinic Keratosis': 'Non-invasive type of squamous cell carcinoma that can be treated locally without surgery.'
+        'Benign keratosis': 'Usually harmless but sometimes similar in appearance to more serious conditions. It is a generic class that includes seborrheic keratoses, lichen-planus-like keratoses, and solar lentigo. The three subgroups may look different dermatoscopically, but they are grouped as they are similar biologically and often reported under the same generic term histopathologically.',
+        'Melanocytic nevus': 'Commonly known as moles, usually benign. They are benign neoplasms of melanocytes and appear in various shapes and sizes. From a dermatoscopic standpoint, the variants may differ dramatically.',
+        'Dermatofibroma': 'Typically benign skin growths. This skin lesion is either benign growth or an inflammatory response to minor trauma.',
+        'Melanoma': 'The most serious type of skin cancer. It is a cancerous tumor that develops from melanocytes and can take many forms. It can be treated with a primary surgical procedure if caught early enough.',
+        'Vascular lesion': 'Includes a range of blood vessel-related skin issues. Cherry antifoams, angiokeratomas, and pyogenic granulomas are examples of benign or malignant angiomas.',
+        'Basal cell carcinoma': 'A common form of skin cancer with high survival when treated early. A type of epithelial skin cancer that rarely spreads, but if left untreated, it might become aggressive and relapse.',
+        'Actinic Keratosis': 'Often a precursor to skin cancer. Non-invasive type of squamous cell carcinoma that can be treated locally without surgery.'
     }
     return disease_info.get(disease_name, 'No additional information available.')    
 
