@@ -25,7 +25,7 @@ def form():
 UPLOAD_FOLDER = 'static/uploads/'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-CONFIDENCE_THRESHOLD = 0.8
+CONFIDENCE_THRESHOLD = 0.75
 
 os.makedirs(os.path.join(app.root_path, UPLOAD_FOLDER), exist_ok=True)
 
