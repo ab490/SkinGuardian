@@ -17,6 +17,8 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000 <br>
 - Melanoma
 - Melanocytic Nevi
 - Vascular Lesions
+  
+<img src="/images/dataset image.png"><br>
 
  ## 2. Project Stages
  0. Data Loading
@@ -24,5 +26,11 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000 <br>
  2. Data Exploration
  3. Model Training and Testing
  4. Web Application Development
-  
+
+### Model architecture
+<img src="/images/model architecture.png" height="600"><br>
+
+## Metrics
+<img src="/images/metrics.png"><br>
+<img src="/images/metrics curves.png"><br>
   
