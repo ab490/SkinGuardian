@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkinGuardian - Upload new File</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-5">SkinGuardian</h1>
+    <p class="lead">Upload an image of the skin lesion for analysis</p>
+    <form method="post" enctype="multipart/form-data" action="/predict" class="mb-3">
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="fileInput" name="file" required>
+        <label class="custom-file-label" for="fileInput">Choose file</label>
+      </div>
+      <button type="submit" class="btn btn-primary mt-3">Upload</button>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script>
+  $('.custom-file-input').on('change', function() {
+    let fileName = $(this).val().split('\\').pop();
+    $(this).next('.custom-file-label').addClass("selected").html(fileName);
+  });
+  </script>
+</body>
+</html>

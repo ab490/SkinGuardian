@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkinGuardian Results</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+</head>
+<body>
+  <div class="container text-center">
+    <h1 class="mt-5">Results</h1>
+    <img src="{{ image_url }}" alt="Uploaded Image" class="img-thumbnail my-3" style="max-width: 500px; height: auto;">
+    <h2 class="mb-3">{{ class_name }}</h2>
+    {% if accuracy %}
+        <p class="lead">Confidence: {{ '%.2f' % (accuracy * 100) }}%</p>
+    {% endif %}
+    <p>{{ additional_info }}</p>
+    <a href="{{ url_for('form') }}" class="btn btn-primary mt-3">Analyze Another Image</a>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
