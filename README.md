@@ -41,3 +41,5 @@ Home page:
 Results page:<br>
 <img src="/images/website results 1.png" height="500"><br><br>
 <img src="/images/website results 2.png" height="436"><br>
+
+The web application has been trained exclusively on a dataset that encompasses seven distinct types of skin conditions. Should a user upload an image that doesn't correspond to any of these recognized categories, (if the model's confidence level falls below a 75% threshold), the output will indicate that no disease has been detected. It suggests that the skin might be healthy or possibly affected by a condition not included in the model's training set.
