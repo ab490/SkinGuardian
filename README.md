@@ -30,7 +30,14 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000 <br>
 ### Model architecture
 <img src="/images/model architecture.png" height="600"><br>
 
-## Metrics
+### Metrics
 <img src="/images/metrics.png"><br>
 <img src="/images/metrics curves.png"><br>
-  
+
+### Web application
+Home page:
+<img src="/images/website home.png" height="300"><br>
+
+Results page:<br>
+<img src="/images/website results 1.png" height="500"><br><br>
+<img src="/images/website results 2.png" height="436"><br>
